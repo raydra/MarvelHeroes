@@ -38,7 +38,7 @@ const HeroMoreInfo: React.FC<HeroItemProps> = ({hero}) => {
         <p>{hero.description}</p>
         <footer>
             <p>
-                Acesse o site da marvel para mais informações:       
+                Acesse o site da marvel para mais informações deste personagem:       
             </p>
             <a href={hero.urls[0].url}>
                 Clique aqui!
