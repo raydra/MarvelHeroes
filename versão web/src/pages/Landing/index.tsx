@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/images/logo.png';
-import onepunche from '../../assets/images/one-punch.jpg'
+import marvel from '../../assets/images/marvel.jpg'
 
 import searchIcon from '../../assets/images/icons/search.svg';
 
@@ -19,7 +19,7 @@ function Landing() {
                     <h2>Bem-vindo a listagem de heróis v1</h2>
                 </div>
                 <img 
-                    src={onepunche} 
+                    src={marvel} 
                     alt="Ihero" 
                     className="hero-image"
                 />

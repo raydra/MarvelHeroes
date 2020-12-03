@@ -36,6 +36,42 @@
     width: 90%;
 }
 
+#page-hero-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#page-hero-list .actions button{
+    width: 10rem;
+    height: 5.6rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top: 3.2rem;
+}
+
+#page-hero-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+#page-hero-list .actions button:hover {
+    background: var(--color-secundary-dark);
+}
+
+#page-hero-list .actions button[disabled]:hover {
+    opacity: 0.5;
+}
+
 
 @media (min-width: 700px) {
     #page-hero-list {
