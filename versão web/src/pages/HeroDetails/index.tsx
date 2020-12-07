@@ -17,8 +17,8 @@ function HeroDetails() {
         id: string
     } = useParams();
 
-    const PRIVATE_KEY = 'e1bd40240ba5d0437d272bb8c93dee3a36d586f8';
-    const PUBLIC_KEY = '34be0d81e8dd2694ad5acd0370da91ba';
+    const PRIVATE_KEY = process.env.REACT_APP_PRIVATE_KEY || "development";
+    const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY || "development";
 
     async function searchHeroes() {
 

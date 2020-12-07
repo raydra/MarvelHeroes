@@ -36,6 +36,10 @@
     width: 90%;
 }
 
+#page-hero-list main p {
+    font: 700 1.6rem Archivo;
+}
+
 #page-hero-list .actions{
     display: flex;
     justify-content: space-between;
